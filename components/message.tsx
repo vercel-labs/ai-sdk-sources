@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { memo, useCallback, useEffect, useState } from "react";
 import equal from "fast-deep-equal";
 
-import { Markdown } from "./markdown";
+import { Streamdown as Markdown } from "streamdown";
 import { cn } from "@/lib/utils";
 import {
   CheckCircle,
